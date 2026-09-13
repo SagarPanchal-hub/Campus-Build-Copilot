@@ -1,37 +1,44 @@
 # Claude Build Log
 
+## Project
+
+**Campus Build Copilot**
+
+**Current version:** v0.2  
+**Current implementation:** Interactive rule-based prototype  
+**Live Claude API:** Not connected in v0.2
+
+Campus Build Copilot was developed with Claude as a product-thinking, implementation, debugging, and testing partner.
+
+The project started from a simple product question:
+
+> Can an AI help a student challenge an idea before they spend time building the wrong thing?
+
+The development process intentionally separated product validation from live model integration.
+
+---
+
 ## Stage 1 — Product analysis
-What Claude contributed:
-- challenged initial assumptions
-- identified MVP scope
-- identified UX risks
 
-## Stage 2 — UX
-What Claude contributed:
-- single-flow UX
-- clarification behavior
-- state-driven interaction
+### What Claude contributed
 
-## Stage 3 — Artifact
-What Claude contributed:
-- initial interactive prototype
-- UI/state implementation
+Claude helped turn the initial concept into a structured product workflow.
 
-## Stage 4 — Testing
-What Claude contributed:
-- diagnosis of repeated output
-- state-isolation changes
-- provenance handling
-- intent detection
+Together, the product was narrowed from a broad idea assistant into a focused flow:
 
-## Stage 5 — Final validation
-What I tested:
-[tests]
-
-## My contribution
-- product decisions
-- test design
-- acceptance criteria
-- identifying failures
-- deciding what to keep/reject
-- validation
+```text
+Idea
+ ↓
+Problem
+ ↓
+Target User
+ ↓
+Assumptions
+ ↓
+Solution Options
+ ↓
+Challenge
+ ↓
+Smallest MVP
+ ↓
+Human Check
